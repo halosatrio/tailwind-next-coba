@@ -7,10 +7,15 @@ module.exports = {
       sans: ["Raleway"],
     },
     extend: {
+      maxWidth: {
+        "4/5": "80%",
+      },
       colors: {
         crimson: {
-          500: "hsl(9,70%,22%)",
+          500: "hsl(348,83%,47%)",
+          700: "hsl(0, 100%, 25%)",
         },
+        wheat: "hsl(39,77%,83%)",
         gray: {
           550: "hsl(0,0%,98%)",
           750: "hsl(240,12%,33%)",

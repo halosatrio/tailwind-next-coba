@@ -3,3 +3,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Raleway:wght@400;700&display=swap");
 
 @tailwind utilities;
+
+@layer components {
+  .overlay {
+    @apply w-full h-full bg-crimson-700 bg-opacity-30 flex;
+  }
+  .box250 {
+    height: 250px;
+  }
+  .box200 {
+    height: 200px;
+  }
+  .box-info {
+    @apply m-auto text-wheat;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  .box-info p {
+    @apply text-center font-sans font-thin text-sm;
+  }
+  .box-info h3 {
+    @apply text-center font-sans font-normal mb-3;
+    font-size: 28px;
+  }
+
+  .box-info h5 {
+    @apply text-center font-sans font-normal mb-3;
+    font-size: 20px;
+  }
+}

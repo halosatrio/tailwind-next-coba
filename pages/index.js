@@ -3,6 +3,8 @@ import Head from "next/head";
 // components
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
+import About from "../components/About";
+import ProjectShowcase from "../components/ProjectShowcase";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
 
       <Navbar />
       <Header isHome />
+      <About />
+      <ProjectShowcase />
     </div>
   );
 }
