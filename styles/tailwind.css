@@ -32,4 +32,7 @@
     @apply text-center font-sans font-normal mb-3;
     font-size: 20px;
   }
+  .project-thumb {
+    @apply h-64;
+  }
 }
