@@ -9,9 +9,11 @@
     @apply w-full h-full bg-crimson-700 bg-opacity-30 flex;
   }
   .box250 {
+    @apply bg-center bg-cover;
     height: 250px;
   }
   .box200 {
+    @apply bg-center bg-cover;
     height: 200px;
   }
   .box-info {

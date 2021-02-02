@@ -12,6 +12,7 @@ module.exports = {
       },
       colors: {
         crimson: {
+          400: "#cd5c5c",
           500: "hsl(348,83%,47%)",
           700: "hsl(0, 100%, 25%)",
         },
