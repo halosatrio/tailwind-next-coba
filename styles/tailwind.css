@@ -27,12 +27,20 @@
     @apply text-center font-sans font-normal mb-3;
     font-size: 28px;
   }
-
   .box-info h5 {
     @apply text-center font-sans font-normal mb-3;
     font-size: 20px;
   }
-  .project-thumb {
-    @apply h-64;
+  .overlay-post {
+    @apply w-full h-full bg-black bg-opacity-40 flex opacity-0 transition hover:opacity-100;
+  }
+  .overlay-text {
+    @apply opacity-0 font-serif text-base font-normal m-auto border border-crimson-500 text-gray-100 text-center py-4 px-12 rounded-lg;
+    transform: scale(0.3);
+    transition: 0.5s ease;
+  }
+  .overlay-post:hover .overlay-text {
+    opacity: 1;
+    transform: scale(1);
   }
 }
