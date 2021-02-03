@@ -10,7 +10,11 @@ const ThumbsProject = (props) => {
   const { post } = props;
 
   return (
-    <div className="m-auto py-3 px-0 box-border w-full border-b border-black border-opacity-30 las:border-0">
+    <div
+      className={`m-auto py-3 px-0 box-border w-full ${
+        post == "5" ? "border-b-0" : "border-b border-black border-opacity-30"
+      }`}
+    >
       <a href="#">
         <div className="h-64 bg-center bg-cover" style={image[post]}>
           <div className="overlay-post">

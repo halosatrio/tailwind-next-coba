@@ -17,7 +17,7 @@ export default function Home() {
 
       <Navbar />
       <Header isProject />
-      <div className="mt-12 mx-auto mb-0 py-0 px-5 max-w-3xl grid grid-cols-1 gap-12">
+      <div className="mt-12 mx-auto mb-0 py-0 px-5 max-w-3xl grid grid-cols-1 gap-12 last:border-0">
         <ThumbsProject post="1" />
         <ThumbsProject post="2" />
         <ThumbsProject post="3" />

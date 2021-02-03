@@ -5,7 +5,7 @@ const ProjectShowcase = () => {
         Recent Projects
       </h1>
 
-      <div className="my-8 mx-auto w-4/5 grid grid-cols-2 gap-x-10">
+      <div className="my-8 mx-auto py-0 px-4 lg:p-0 md:w-full lg:w-4/5 grid grid-rows-1 md:grid-cols-2 gap-y-4 md:gap-x-10">
         <div className="grid gap-4 grid-cols-2 justify-between">
           <div
             className="col-span-2 box250"
