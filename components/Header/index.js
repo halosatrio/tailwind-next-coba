@@ -6,10 +6,10 @@ const Header = (props) => {
       {isHome && (
         <div className="mt-0 mb-14 mx-auto py-0 px-5">
           <h1 className="font-serif text-center text-3xl mb-4">
-            Front End Developer. Data Enthusiast
+            Software Engineer - Front End Developer.
           </h1>
           <h4 className="font-sans text-sm text-center italic font-normal">
-            Specializing in Web Design, and a Data Analyst in sideline.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident!
           </h4>
         </div>
       )}
